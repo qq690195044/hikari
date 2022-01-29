@@ -348,9 +348,9 @@
             return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
         }
         SubmitResults();
-        if (score <= 49) return '这么弱？梨宝讨厌你！';
-        if (score <= 99) return '这点分还不给梨宝上舰？';
-        if (score <= 149) return '宝贝好强！梨宝爱你！';
+        if (score <= 49) return '这么弱？蝶蝶讨厌你！';
+        if (score <= 99) return '这点分还不给蝶蝶上舰？';
+        if (score <= 149) return '宝贝好强！蝶宝爱你！';
         if (score <= 199) return '您';
         return '人？';
     }
